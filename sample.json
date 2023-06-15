@@ -1,0 +1,102 @@
+[
+    {
+        "M": {
+            "Base_PK": {
+                "S": "EXTRACT:pds"
+            },
+            "Base_SK": {
+                "S": "1"
+            },
+            "Add_Quotes": {
+                "S": "N"
+            },
+            "Archive_Flag": {
+                "S": ""
+            },
+            "Bucket": {
+                "S": "odp-us-innovation-daasbe"
+            },
+            "Compression": {
+                "S": "empty"
+            },
+            "Daily_Partition": {
+                "S": "N"
+            },
+            "Delimiter": {
+                "S": ""
+            },
+            "Extract_Desc": {
+                "S": "inv_ascp_healthcheck_f extracts"
+            },
+            "Extract_Name": {
+                "S": "inv_ascp_healthcheck_f extracts"
+            },
+            "Extract_Name_Pattern": {
+                "S": ""
+            },
+            "Extract_No": {
+                "S": "1"
+            },
+            "Extract_Prefix": {
+                "S": "pds"
+            },
+            "File_Merge_Required": {
+                "S": "N"
+            },
+            "File_Type": {
+                "S": "parquet"
+            },
+            "Has_Header": {
+                "S": "Y"
+            },
+            "Header_Row": {
+                "S": ""
+            },
+            "Host": {
+                "S": ""
+            },
+            "Hourly_Partition": {
+                "S": ""
+            },
+            "Iam_Role": {
+                "S": "arn:aws:iam::541574621075:role/odp-us-innovation-daasbe-mdp-service-role"
+            },
+            "Monthly_Partition": {
+                "S": "N"
+            },
+            "Overwrite_Flag": {
+                "S": ""
+            },
+            "Parallel_Unload": {
+                "S": "N"
+            },
+            "Prefix": {
+                "S": ""
+            },
+            "Project_Name": {
+                "S": "pds"
+            },
+            "Quarterly_Partition": {
+                "S": ""
+            },
+            "Query_0": {
+                "S": "select * from hdl_isc_mtl_sem_data.inv_ascp_healthcheck_f"
+            },
+            "Retention_Days": {
+                "S": ""
+            },
+            "secret_ID": {
+                "S": ""
+            },
+            "staging_bucket": {
+                "S": "odp-us-innovation-daasbe"
+            },
+            "Weekly_Partition": {
+                "S": "N"
+            },
+            "Yearly_Partition": {
+                "S": "N"
+            }
+        }
+    }
+]
